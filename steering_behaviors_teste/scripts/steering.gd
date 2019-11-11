@@ -1,14 +1,12 @@
 extends KinematicBody2D
 
 # Declare member variables here. Examples:
+const MAX_FORCE  = 10
 export var MAX_SPEED = 1000
 export var MODE = 0
-export var LIMIT_DISTANCE = 5.0
-const MAX_FORCE  = 10
-var velocity = Vector2()
-onready var target = get_position()
 export var  _RAY = 50
 export var  _DISTANCE = 800
+var velocity = Vector2()
 var steering = null
 
 func _ready():

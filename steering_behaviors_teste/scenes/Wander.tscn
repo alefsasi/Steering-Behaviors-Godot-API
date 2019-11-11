@@ -10,6 +10,5 @@
 [node name="NaveChar" parent="." instance=ExtResource( 2 )]
 position = Vector2( 311.599, 212.799 )
 MAX_SPEED = 5000
-LIMIT_DISTANCE = 6.0
 _RAY = 40
 _DISTANCE = 900
