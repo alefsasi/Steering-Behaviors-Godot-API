@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 # Declare member variables here. Examples:
-const MAX_FORCE  = 10
+const  MAX_FORCE = 10
 export var MAX_SPEED = 1000
 export var MODE = 0
 export var  _RAY = 50
